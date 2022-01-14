@@ -8,9 +8,9 @@ public class Anas_Almaqtari_Denemeler31 {
 		//Maksimum metodu üç rasyonel sayı (double) değerinden en büyüğünü buluyor ve ona dönüyor
 		Scanner sc = new Scanner(System.in);
 		     System.out.println("Uc Tane Sayi Giriniz : ");
-		     double sayi1 = sc.nextInt();
-		     double sayi2 = sc.nextInt();
-		     double sayi3 = sc.nextInt();
+		     double sayi1 = sc.nextDouble();
+		     double sayi2 = sc.nextDouble();
+		     double sayi3 = sc.nextDouble();
 		     double sonuc = maksimum(sayi1 , sayi2 , sayi3);
 		     System.out.println("En Buyuk Sayi  = " + sonuc);
 
