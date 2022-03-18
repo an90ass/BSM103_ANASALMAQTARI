@@ -33,7 +33,7 @@ public class StockMain {
 	        		   System.out.println(i + "alimda kac tane aldin? Birim fiyat nedir? ");
 	        		   int numShares = console.nextInt();
 	        		   int pricePerShare = console.nextInt();
-	        		   currentStock.purchase(numShares , pricePerShare);
+	        		   currentStock.satinalma(numShares , pricePerShare);
 	        	   }
 	        	   System.out.println("Guncel birim fiyat ?");
 	        	   int crrentPrice = console.nextInt();
