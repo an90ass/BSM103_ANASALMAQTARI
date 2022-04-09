@@ -10,6 +10,7 @@ public class QueueExampel {
 		     System.out.println("Queue = " +q);
 		     System.out.println("Peek = "+q.peek());
 		     System.out.println(q.size());
+		     
 	}
 
 }
