@@ -12,7 +12,7 @@ public class StackExampel {
 	     System.out.println(s.pop());
 	     System.out.println("Stack = "+s);
 	     System.out.println("______________________________________________________");
-	     System.out.println();
+	     System.out.println(s.isEmpty());
 	    
 	while(!s.isEmpty()) {
 		System.out.println(s.pop());
